@@ -490,9 +490,9 @@ function App() {
 
       {/* Footer */}
       <footer id="footer" className="bg-primary text-white py-10">
-        <div className="container mx-auto grid md:grid-cols-3 gap-6 px-6">
+        <div className="container mx-auto grid md:grid-cols-3 gap-6 px-6 justify-center items-center">
           {/* Social Media */}
-          <div>
+          <div className="text-center">
             <h4 className="font-bold">Contact</h4>
             <ul className="mt-4 space-y-2">
               <li>
@@ -532,12 +532,13 @@ function App() {
               <img
                 src="logo.jpg"
                 alt="Logo"
-                className="h-16 w-16 object-cover rounded-full mr-2"
+                className="h-16 w-16 object-cover rounded-full mx-auto"
               />
             </div>
           </div>
+
           {/* Quick Links */}
-          <div>
+          <div className="text-center">
             <h4 className="font-bold">Reach out to us!</h4>
             <ul className="mt-4 space-y-2">
               <li>
